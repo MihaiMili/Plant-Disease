@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load your trained model
-model = YOLO(r'C:\Users\mihai\runs\detect\train14\weights\best.pt')  # path to your trained model
+model = YOLO(r'C:\Users\mihai\Documents\GitHub\Plant-disease\train14\weights\best.pt')  # path to your trained model
 
 # Open the webcam
 cap = cv2.VideoCapture(0)
